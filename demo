@@ -26,3 +26,5 @@ git push origin master 将本地master分支推送至GitHub。
 
 git remote -v 查看远程库信息
 git remote rm origin 删除远程库的绑定关系
+    关联一个远程库:
+git remote add origin git@server-name:path/repo-name.git
