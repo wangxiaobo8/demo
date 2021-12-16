@@ -40,3 +40,17 @@ git merge 分支名 合并指定分支到当前分支
 git branch -d 分支名 删除当前分支
 git switch -c 分支名  创建并使用一个新的分支
 git switch 分支名 切换到当前选择的分支
+    Git用<<<<<<<,=======,>>>>>>>标记出不同分支的内容。
+    解决分支冲突就是把Git合并失败的文件手动编辑为我们希望的内容，在提交
+    分支合并时默认用Fast forward模式 删除分支后，会丢掉分支信息
+git log --graph 查看分支合并图
+git merge --no--ff -m "提交描述" 分支名 会强制取消Fast forward 创建一个新的commit
+	bug分支
+git stash 保存当前工作现场。
+git stash list 查看保存信息。
+git stash apply stash{n} 恢复工作现场,保留stash内容.n表示哪一个
+git stash pop 恢复工作现场,并删除stash内容
+git stash drop 删除stash内容。
+git cherry-pick commit_id 复制一个特定的提交到当前分支。
+	Feature分支:未被合并的分支
+git branch -D 分支名 强行删除。
