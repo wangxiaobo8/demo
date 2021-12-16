@@ -37,3 +37,6 @@ git branch 分支名  创建一个分支
 git checkout 分支名  选择使用当前分支
 git branch 查看当前分支和所有分支 *当前分支
 git merge 分支名 合并指定分支到当前分支
+git branch -d 分支名 删除当前分支
+git switch -c 分支名  创建并使用一个新的分支
+git switch 分支名 切换到当前选择的分支
