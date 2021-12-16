@@ -9,4 +9,4 @@ git log  查看历史记录 --pretty=oneline 参数 减少信息输出
 git reset --hard HEAD^ 表示回到上次修改. HEAD~100 撤回100次
 git reset --hard commit id 回到指定的id
 git reflog 历史命令
-
+git diff HEAD -- 文件名  查看工作区和版本库里面的区别
