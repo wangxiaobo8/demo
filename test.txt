@@ -5,4 +5,4 @@ git add 文件名  文本格式
 git commit -m “注释”
 git status  查看仓库状态
 git diff 文件名 查看修改的差异
-git log  查看历史记录
+git log  查看历史记录 --pretty=oneline 参数 减少信息输出
