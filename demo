@@ -33,6 +33,7 @@ git clone git@github.com:'github账户名'/'远程库名'.git
  克隆一个GitHu远程库到本地 在GitHub上的code中有ssh和https的方法
 
 git checkout -b 分支名 创建一个新的分支并切换到新的分支
-git branch dev 
-git checkout dev  这两个命令和 gitcheckout -b 作用相同
+git branch 分支名  创建一个分支
+git checkout 分支名  选择使用当前分支
 git branch 查看当前分支和所有分支 *当前分支
+git merge 分支名 合并指定分支到当前分支
