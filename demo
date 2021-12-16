@@ -18,4 +18,8 @@ git reset HEAD 文件名 丢弃暂存区的修改重新放到工作区
 git rm 文件名 从版本库中删除文件 并git commit 提交
 ssh-keygen -t rsa -C "你的邮箱地址"如xxx.qq@.com 之后一直按回车
  然后在当前用户主目录里面找到.ssh目录 里面有id_rsa私钥和id_rsa.pub公钥
-
+git remote add origin git@github.com:'你的GitHub账户名'/'GitHub的仓库名'.git实际输入没有单引号 origin是远程库的默认名
+git push -u origin master 把本地库的所有内容推送到远程库 -u表示将本地分支和远程分支关联起来
+  从现在起，只要本地做了提交就可以通过以下命令
+git push origin master 将本地master分支推送至GitHub。
+现在你就有了真正的分布式版本库。
