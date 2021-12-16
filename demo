@@ -13,3 +13,4 @@ git diff HEAD -- 文件名  查看工作区和版本库里面的区别
 
 	git add 将工作区的内容加入到stage(index)暂存区
 	git commit 将暂存区的内容加入到master分支中
+git checkout -- 文件名 丢弃工作区的修改
