@@ -1,4 +1,6 @@
 git init  初始化仓库
+git config --global user.name "your Name" 设置用户名 和邮箱
+git config --global user.email "xxx@xx.com"
 git add 文件名  文本格式
 git commit -m “注释”
 git status  查看仓库状态
