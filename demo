@@ -28,3 +28,7 @@ git remote -v 查看远程库信息
 git remote rm origin 删除远程库的绑定关系
     关联一个远程库:
 git remote add origin git@server-name:path/repo-name.git
+
+git clone git@github.com:'github账户名'/'远程库名'.git 
+ 克隆一个GitHu远程库到本地 在GitHub上的code中有ssh和https的方法
+
