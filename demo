@@ -23,3 +23,6 @@ git push -u origin master 把本地库的所有内容推送到远程库 -u表示
   从现在起，只要本地做了提交就可以通过以下命令
 git push origin master 将本地master分支推送至GitHub。
 现在你就有了真正的分布式版本库。
+
+git remote -v 查看远程库信息
+git remote rm origin 删除远程库的绑定关系
