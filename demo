@@ -56,3 +56,17 @@ git stash drop 删除stash内容。
 git cherry-pick commit_id 复制一个特定的提交到当前分支。
 	Feature分支:未被合并的分支
 git branch -D 分支名 强行删除。
+
+git pull 抓取最新提交的分支数据
+git checkout -b branch-name origin/branch-name 在本地创建和远程分支对应的分支
+git branch --set-upstream branch-name origin/branch-name 建立本地分支和远程分支的关联
+git rebase 整理提交更加直观
+
+		tag标签
+git tag <name> 新建一个标签,去掉name查看标签
+git tag <name> commit-id 根据commit-id给历史提交打标签
+git show <tagname> 查看标签信息
+git tag -a <tagname> -m "说明文"  -a指定标签 -m指定说明文
+
+ 
+
