@@ -65,8 +65,11 @@ git rebase 整理提交更加直观
 		tag标签
 git tag <name> 新建一个标签,去掉name查看标签
 git tag <name> commit-id 根据commit-id给历史提交打标签
-git show <tagname> 查看标签信息
-git tag -a <tagname> -m "说明文"  -a指定标签 -m指定说明文
-
+git show <name> 查看标签信息
+git tag -a <name> -m "说明文"  -a指定标签 -m指定说明文
+git tag -d <name> 删除标签
+git push origin tagname 将标签推送到远端
+git push origin --tags 一次性推送全部标签
+git push origin :refs/tags/<tagname> 删除一个远程标签
  
 
