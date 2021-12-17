@@ -83,3 +83,4 @@ git config --global alias.unstage 'reset HEAD' unstage 同'reset HEAD'这个命�
 git config --global alias.last 'log -l' last 同 log -l
 如果要撤销别名 每个仓库直接在.git/config文件中删除alias行
 当前用户的git配置文件在 用户主目录下的隐藏文件.gitconfig中
+	SourceTree Git图像管理工具
